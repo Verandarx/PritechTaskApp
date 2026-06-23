@@ -145,7 +145,7 @@ export default function HomeScreen() {
       
       
       <View style={styles.headerCard}>
-        <Text style={styles.title}>📝 My Tasks</Text>
+        <Text style={styles.title}>My Tasks</Text>
         <Text style={styles.subtitle}>
           {tasks.length} tasks • {tasks.filter(t => t.completed).length} done
         </Text>
